@@ -27,6 +27,7 @@ import TabThreeScreen from '../screens/LibraryScreen';
 import TabTwoScreen from '../screens/SearchScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
+import AlbumScreen from '../screens/AlbumScreen';
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
   return (
@@ -106,8 +107,8 @@ function BottomTabNavigator() {
       />
       
       <BottomTab.Screen
-        name="TabFour"
-        component={TabFourScreen}
+        name="AlbumScreen"
+        component={AlbumScreen}
         options={{
           title: 'Premium',
           tabBarIcon: ({ color }) => <FontAwesome5 name="spotify" size={30} style={{ marginBottom: -3 }} color={color} />,
