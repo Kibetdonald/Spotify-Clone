@@ -15,7 +15,7 @@ export default {
         {
             id: '2',
             imageUri: 'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
-            title: 'Congradulation',
+            title: 'Congratulation',
             artist: 'Post Malone',
         },
         {
