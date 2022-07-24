@@ -29,3 +29,4 @@ Spotify Clone using React Native, Expo, AWS Amplify, AWS AppSync  and GraphQL.
             - artist
 5. Adding the album component to the home screen
 6. Creating the album details to show song list in the album.
+7. Added player widget and positioned it at the top of the bottom navigation so that it appears in all the screens.
